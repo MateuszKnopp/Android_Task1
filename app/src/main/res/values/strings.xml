@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">Homework1</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="input_contact_details">Input contact details</string>
+    <string name="name">Name</string>
+    <string name="surname">Surname</string>
+    <string name="phone">Phone number</string>
+    <string name="add">Add</string>
+    <string name="cancel">Cancel</string>
+    <string name="snackbar_cancel_delete_msg">Cancel Delete?</string>
+    <string name="snackbar_retry_msg">Retry?</string>
+    <string name="delete_contact_msg">Delete Contact?</string>
+    <string name="confirm_delete">Delete</string>
+    <string name="cancel_delete">Cancel</string>
+    <string name="ringtone_2">Ringtone 2</string>
+    <string name="ringtone_3">Ringtone 3</string>
+    <string name="ringtone_1">Ringtone 1</string>
+    <string name="contact_position_key">TaskPositionKey</string>
+    <string name="selected_ringtone_key">SelectedRingtoneKey</string>
+    <string name="calling_msg">Calling: </string>
+    <string name="confirm_call">call</string>
+    <string name="cancel_call">cancel</string>
+</resources>

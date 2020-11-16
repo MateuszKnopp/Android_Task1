@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/my_nav_file"
+    app:startDestination="@id/contactFragment">
+
+    <fragment
+        android:id="@+id/contactFragment"
+        android:name="com.example.android_homework1.ContactFragment"
+        android:label="ContactFragment" >
+        <action
+            android:id="@+id/action_contactFragment_to_addContactFragment"
+            app:destination="@id/addContactFragment" />
+        <action
+            android:id="@+id/action_contactFragment_to_displayContactFragment"
+            app:destination="@id/displayContact" />
+        <action
+            android:id="@+id/action_contactFragment_to_callActivity"
+            app:destination="@id/callActivity" />
+    </fragment>
+    <fragment
+        android:id="@+id/addContactFragment"
+        android:name="com.example.android_homework1.AddContact"
+        android:label="fragment_add_contact"
+        tools:layout="@layout/fragment_add_contact" >
+        <action
+            android:id="@+id/action_addContactFragment_to_contactFragment"
+            app:destination="@id/contactFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/displayContact"
+        android:name="com.example.android_homework1.DisplayContact"
+        android:label="fragment_display_contact"
+        tools:layout="@layout/fragment_display_contact" />
+    <activity
+        android:id="@+id/callActivity"
+        android:name="com.example.android_homework1.CallActivity"
+        android:label="activity_call"
+        tools:layout="@layout/activity_call" />
+</navigation>
